@@ -485,6 +485,25 @@ header .navbar-brand img {
   transition: color 0.2s;
 }
 
+.proyecto-btn {
+  background-color: var(--color-negro);
+  color: #fff;
+  font-family: var(--fuente-cuerpo);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  padding: 10px 28px;
+  border-radius: 30px;
+  margin-top: 16px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.proyecto-btn:hover {
+  background-color: var(--color-gris);
+  color: #fff;
+}
+
 .proyecto-link:hover {
   color: var(--color-gris);
 }
