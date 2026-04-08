@@ -137,7 +137,7 @@ header .navbar-brand img {
 }
 
 #footer .footer-logo-img {
-  height: 80px;
+  height: 72px;
   width: auto;
   display: block;
   margin: 0 auto 10px;
@@ -213,11 +213,11 @@ header .navbar-brand img {
 
 #acerca {
   background-color: var(--color-rosa);
-  padding: 64px 0 90px;
+  padding: 64px 0 80px;
 }
 
 #acerca-grid {
-  gap: 62px 0;
+  gap: 32px 0;
 }
 
 #acerca-foto-col {
@@ -394,7 +394,7 @@ header .navbar-brand img {
 
 #portafolio-banner {
   background-color: #68845c;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 #portafolio-banner-inner {
@@ -483,25 +483,6 @@ header .navbar-brand img {
   text-decoration: underline;
   text-underline-offset: 4px;
   transition: color 0.2s;
-}
-
-.proyecto-btn {
-  background-color: var(--color-negro);
-  color: #fff;
-  font-family: var(--fuente-cuerpo);
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  padding: 10px 28px;
-  border-radius: 30px;
-  margin-top: 16px;
-  display: inline-block;
-  text-decoration: none;
-  transition: background-color 0.2s;
-}
-
-.proyecto-btn:hover {
-  background-color: var(--color-gris);
-  color: #fff;
 }
 
 .proyecto-link:hover {
@@ -645,5 +626,116 @@ header .navbar-brand img {
 @media (max-width: 576px) {
   #contacto-titulo {
     font-size: 38px;
+  }
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE GENERAL
+   ══════════════════════════════════════ */
+
+@media (max-width: 991px) {
+
+  /* Acerca */
+  #acerca {
+    padding: 40px 0 60px;
+  }
+  #acerca-grid {
+    gap: 32px 0;
+  }
+
+  /* Servicios */
+  #servicios {
+    padding: 40px 0 60px;
+  }
+  #servicios-titulo {
+    font-size: 38px;
+  }
+  #servicios-subtitulo {
+    font-size: 14px;
+  }
+
+  /* Portafolio */
+  #portafolio-proyectos {
+    padding: 40px 0 60px;
+  }
+
+  /* Contacto */
+  #contacto {
+    padding: 40px 0 60px;
+  }
+  #contacto-titulo {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Header */
+  header .navbar-brand img {
+    height: 38px;
+  }
+
+  /* Acerca */
+  #acerca-foto {
+    max-width: 200px;
+  }
+  #acerca-titulo {
+    font-size: 32px;
+  }
+  #acerca-card .card-body {
+    padding: 20px 16px;
+  }
+  .acerca-texto {
+    font-size: 14px;
+  }
+
+  /* Servicios */
+  #servicios-titulo {
+    font-size: 32px;
+  }
+  .servicio-titulo {
+    font-size: 15px;
+  }
+  .servicio-card .card-body {
+    padding: 28px 20px;
+  }
+
+  /* Portafolio */
+  .proyecto-titulo {
+    font-size: 15px;
+  }
+  .proyecto-desc {
+    font-size: 13px;
+  }
+  .proyecto-img {
+    max-width: 100%;
+  }
+  .proyecto-video {
+    max-width: 100%;
+  }
+
+  /* Contacto */
+  #contacto-titulo {
+    font-size: 32px;
+  }
+  #contacto-subtitulo {
+    font-size: 14px;
+  }
+  #contacto-form .form-control {
+    font-size: 13px;
+  }
+  #contacto-btn {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  /* Footer */
+  #footer .footer-logo-img {
+    height: 60px;
+  }
+  #footer .footer-redes a {
+    width: 38px;
+    height: 38px;
+    font-size: 14px;
   }
 }
