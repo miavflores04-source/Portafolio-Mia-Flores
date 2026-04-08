@@ -213,11 +213,11 @@ header .navbar-brand img {
 
 #acerca {
   background-color: var(--color-rosa);
-  padding: 100px 0 100px;
+  padding: 64px 0 90px;
 }
 
 #acerca-grid {
-  gap: 32px 0;
+  gap: 52px 0;
 }
 
 #acerca-foto-col {
