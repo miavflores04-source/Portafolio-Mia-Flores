@@ -739,3 +739,278 @@ header .navbar-brand img {
     font-size: 14px;
   }
 }
+
+/* ══════════════════════════════════════
+   MOBILE RESPONSIVE — COMPLETO
+   Agregar al final del CSS principal
+   ══════════════════════════════════════ */
+
+@media (max-width: 576px) {
+
+  /* ── GENERAL ── */
+  section, #inicio, #acerca, #servicios,
+  #portafolio-proyectos, #contacto {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* ── HEADER ── */
+  header .navbar-brand img {
+    height: 36px;
+  }
+
+  /* ══ INICIO ══ */
+  #inicio {
+    padding: 16px 0 32px;
+  }
+
+  #hero-izquierda,
+  #hero-izquierda .card-body {
+    min-height: 360px !important;
+  }
+
+  #hero-izquierda .card-body {
+    padding: 36px 24px !important;
+    gap: 12px;
+  }
+
+  #hero-izquierda .sello {
+    width: 64px;
+    height: 64px;
+  }
+
+  #hero-izquierda .hero-titulo {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  #hero-izquierda .hero-habilidades {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  #hero-derecha {
+    padding-top: 12px;
+  }
+
+  #hero-derecha img {
+    height: 260px;
+    object-position: center 15%;
+  }
+
+  /* ══ ACERCA ══ */
+  #acerca {
+    padding: 40px 0 48px;
+  }
+
+  #acerca-foto {
+    max-width: 180px;
+  }
+
+  #acerca-titulo {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  #acerca-card .card-body {
+    padding: 20px 18px;
+  }
+
+  .acerca-texto {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* ══ SERVICIOS ══ */
+  #servicios {
+    padding: 40px 0 48px;
+  }
+
+  #servicios-header {
+    margin-bottom: 28px;
+    padding: 0 12px;
+  }
+
+  #servicios-titulo {
+    font-size: 30px;
+  }
+
+  #servicios-subtitulo {
+    font-size: 13px;
+    padding: 0 8px;
+  }
+
+  .servicio-card .card-body {
+    padding: 28px 18px 24px;
+    gap: 10px;
+  }
+
+  .servicio-icono {
+    font-size: 30px;
+  }
+
+  .servicio-titulo {
+    font-size: 15px;
+  }
+
+  .servicio-lista li {
+    font-size: 13px;
+    line-height: 1.9;
+  }
+
+  .servicio-badge {
+    font-size: 12px;
+    padding: 7px 14px;
+    white-space: normal;      /* evita desbordamiento */
+    text-align: center;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+
+  /* ══ PORTAFOLIO BANNER ══ */
+  #portafolio-banner {
+    padding: 28px 0;
+  }
+
+  /* Texto sale de la imagen y va debajo */
+  #portafolio-banner-inner {
+    position: static;
+    padding: 0 16px;
+  }
+
+  #banner-img {
+    border-radius: 10px;
+    max-height: 220px;
+    object-fit: cover;
+  }
+
+  #banner-texto {
+    position: static !important;
+    transform: none !important;
+    padding: 16px 4px 0;
+    text-align: center;
+  }
+
+  #banner-titulo {
+    font-size: 26px;
+    color: #fff !important;
+    margin-bottom: 8px;
+  }
+
+  #banner-desc {
+    font-size: 13px;
+    color: rgba(255,255,255,0.9) !important;
+  }
+
+  /* ══ PORTAFOLIO PROYECTOS ══ */
+  #portafolio-proyectos {
+    padding: 32px 0 52px;
+  }
+
+  .proyecto-item {
+    padding: 28px 0;
+  }
+
+  .proyecto-titulo {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .proyecto-desc {
+    font-size: 13px;
+    padding: 0 4px;
+    margin-bottom: 14px;
+  }
+
+  /* Imágenes de portafolio al 100% sin desbordarse */
+  .proyecto-img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+
+  .proyecto-video {
+    max-width: 100%;
+  }
+
+  .proyecto-link {
+    font-size: 13px;
+  }
+
+  /* ══ CONTACTO ══ */
+  #contacto {
+    padding: 40px 0 52px;
+  }
+
+  #contacto-titulo {
+    font-size: 30px;
+  }
+
+  #contacto-subtitulo {
+    font-size: 14px;
+  }
+
+  #contacto-form .form-control {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  #contacto-btn {
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 13px;
+  }
+
+  /* ══ FOOTER ══ */
+  #footer {
+    padding: 32px 0 24px;
+  }
+
+  #footer .footer-logo-img {
+    height: 56px;
+  }
+
+  #footer .footer-redes a {
+    width: 38px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  #footer .footer-sub {
+    font-size: 10px;
+  }
+
+  #footer .footer-copy {
+    font-size: 11px;
+  }
+}
+
+/* ── Pantallas muy pequeñas (< 380px) ── */
+@media (max-width: 380px) {
+
+  #hero-izquierda .hero-titulo {
+    font-size: 28px;
+  }
+
+  #hero-derecha img {
+    height: 220px;
+  }
+
+  .servicio-card .card-body {
+    padding: 22px 14px 20px;
+  }
+
+  .servicio-badge {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  #banner-titulo {
+    font-size: 22px;
+  }
+
+  #contacto-titulo,
+  #acerca-titulo,
+  #servicios-titulo {
+    font-size: 26px;
+  }
+}
